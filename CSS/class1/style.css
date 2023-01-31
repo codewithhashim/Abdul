@@ -1,0 +1,31 @@
+body {
+    font-family: Poppins;
+}
+
+/* @font-face {
+    src: url('./hey.ttf');
+    font-style: italic;
+    font-weight: 400;
+} */
+/* comment */
+/* External css */
+
+/* Syntax of css */
+
+/* selector */
+h1 {
+    font-size: 40px;
+    font-style: italic;
+}
+
+/* syntax */
+/* selector{
+    property: value;
+} */
+
+
+li {
+    /* color: green; */
+    text-decoration: underline;
+    /* font-family: Calibri;  */
+}

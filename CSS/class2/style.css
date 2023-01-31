@@ -1,0 +1,21 @@
+/* external css */
+
+/* selector */
+/* id selector */
+#pp {
+    /* properties */
+    /* property: value;  */
+    color: teal;
+    background-color: rgba(222, 184, 135, 0.42);
+    width: 500px;
+    height: 400px;
+    /* units */
+    width: 50%;
+}
+
+/* class selector */
+.colored {
+
+    width: 500px;
+    background-color: blueviolet;
+}
