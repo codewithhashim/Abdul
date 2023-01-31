@@ -19,3 +19,53 @@
     width: 500px;
     background-color: blueviolet;
 }
+
+/* tag selector */
+p {
+    font-size: 18px;
+    /* it wont work in case of some paragraphs  */
+    /* !important can override the inline  css  */
+    /* color: green!important;  */
+}
+
+/* color by name */
+
+#pp {
+    /* name */
+    color: white;
+    /* hex code */
+    color: #fff;
+    /* rgb() */
+    /* 0-255 */
+    color: rgb(255, 255, 255);
+    /* hsl */
+    /* hue 0-360 / Saturation 0-100% / lightness 0-100% */
+    color: hsl(0, 100%, 0%);
+
+    /* rgba */
+    /* alpha 0-1 */
+    color: rgba(255, 255, 255, .999999);
+    /* color: transparent; */
+    /* #rrggbbaa */
+    /* color: #ffffff; */
+    color: #fff;
+
+    /* hsla */
+    /* color: hsla(hue, saturation, lightness, alpha); */
+}
+
+/* units */
+/* 
+px
+%
+rem
+em
+cm
+vh
+vw
+pt
+*/
+
+p {
+    font-size: 16pt !important;
+}
