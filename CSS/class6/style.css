@@ -1,0 +1,19 @@
+div {
+    border: 2px solid brown;
+    height: 300px;
+    max-width: 500px;
+    margin-top: 40px;
+    position: relative;
+}
+button {
+    /* relative to the parent element */
+    position: absolute;
+    top: 0px;
+    right: 30px; 
+    /* left: 40px; */
+    /* bottom: -20px; */
+}
+p {
+    border: 2px solid blue;
+    
+}

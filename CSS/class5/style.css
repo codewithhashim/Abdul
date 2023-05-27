@@ -1,0 +1,38 @@
+button {
+    /* padding: 30px; */
+}
+button::before{
+    /* content: "ddd"; */
+}
+
+/* descendant selector OR child selector */
+/* button that is inside of the div */
+div button, div h1 {
+    /* multi selector */
+    /* float: left; */
+
+    background-color: aqua;
+}
+
+/* Position */
+/* static */
+/* relative */
+/* absolute */
+/* sticky */
+/* fixed */
+
+button {
+    /* top: ; */
+    /* bottom:  ; */
+    /* left: ; */
+    /* right: ; */
+    /* top: 30px; */
+    /* All the elements are static by default */
+    /* position: static; */
+    position: relative;
+    left: 30px;
+    /* right: 50px; */
+    /* bottom: -40px; */
+    /* top: 40px; */
+    /* position: absolute; */
+}

@@ -1,0 +1,3 @@
+
+
+The box model is a core concept in CSS that describes the rectangular boxes that are generated for HTML elements. It consists of four parts: margin, border, padding, and content. The margin is the outermost layer of the box model and defines the space between an element and its neighbors. The border is a line that goes around the element and separates it from other elements. The padding is the space between the border and the content of an element. Finally, the content is where text, images, or other elements are placed inside an element.

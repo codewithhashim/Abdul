@@ -1,0 +1,78 @@
+p{
+    color: brown;
+    /* display: none; */
+    /* color: transparent; */
+    font-size: 0;
+}
+
+#hello::after {
+    content: 'hellooooo';
+}
+
+#hello::before {
+    content: '😍';
+}
+
+
+p::after {
+    content: "ABDUL";
+}
+
+
+
+p::before {
+    content: "ABDUL BEFORE ";
+    color: green;
+    font-size: 30px;
+    /* display: block!important; */
+}
+
+
+/* hover clicking visted link, active */
+button{
+    /* transition: all .5s; */
+    transition: border-radius 5s;
+}
+button:hover {
+    background-color: teal;
+    color: white;
+    font-family: system-ui, sans-serif;
+    /* top/ bottom -------- left /right */
+    padding: 10px 30px;
+    border: none;
+    border-radius: 100%;
+}
+
+.border {
+    width: 200px;
+    height: 200px;
+    background-color: teal;
+    border-radius: 100%;
+}
+
+input {
+    padding: 10px;
+}
+/* attribute selector */
+input[type="submit"]{
+    color: green;
+    background-color: whitesmoke;
+    border-color: rgb(160, 9, 9);
+    /* outline: 0; */
+    box-shadow: 10px 10px 20px rgb(160, 9, 9);
+}
+
+/* attribute seletor */
+button[id="hello"]{
+    background-color: teal;
+}
+
+
+form {
+    background-color: lightgoldenrodyellow;
+    max-width: 500px;
+}
+
+a[href] {
+    font-size: 40px;
+}

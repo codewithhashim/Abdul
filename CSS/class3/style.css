@@ -1,0 +1,36 @@
+html {
+  font-size: 20px;  
+}
+
+
+p {
+    /* margin-top: 29px; */
+    border: 2px solid red;
+    padding: 10px;
+    /* background: lightcoral; */
+}
+
+
+/* rem  */
+/* relative to the root element */
+
+p {
+    font-size: 2rem;
+}
+
+
+/* em */
+/* relative to the parent element */
+
+/* div */
+div {
+    font-size: 10px;
+    background-color: lightcoral;
+    /* viewport height */
+    min-height: 19vh;
+}
+
+address {
+    font-size: 3em;
+}
+
