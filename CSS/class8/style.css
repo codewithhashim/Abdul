@@ -1,0 +1,22 @@
+/* selectors */
+
+p {
+
+}
+
+#id {
+
+}
+.class {
+
+}
+
+/* box model */
+/* padding, margins, borders */
+
+p {
+    padding: 20px;
+}
+
+
+/* Pseudo selectors */
